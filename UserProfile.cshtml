@@ -1,0 +1,60 @@
+﻿<form>
+    <fieldset>
+        <legend>User Personal Information</legend>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="FirstName">First Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="FirstName"/>
+                    </td>
+                    <td>
+                        <label for="LastName">Last Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="LastName" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender:</label>
+                    </td>
+                    <td colspan="3">
+                        <input type="radio" id="MaleGender" name="gender" />
+                        <label for="MaleGender">Male</label>
+
+                        <input type="radio" id="FemaleGender" name="gender" />
+                        <label for="FemaleGender">Female</label>
+
+                        <input type="radio" id="NoResponseGender" name="gender" />
+                        <label for="NoResponseGender">Prefer not to respond</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="EmailAdress">Email Adress:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" placeholder="Add your email here"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <label>Country of Residence:</label>
+                        <select>
+                            <option>USA</option>
+                            <option>Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Update User Information</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+</form>
